@@ -1,3 +1,5 @@
+using System;
+
 namespace Garage
 {
     public class Cessna : Vehicle  // Propellor light aircraft
@@ -7,6 +9,11 @@ namespace Garage
         public void RefuelTank()
         {
             // method definition omitted
+        }
+
+        public override void Drive()
+        {
+            Console.WriteLine("Zoooooom!");
         }
     }
 }
