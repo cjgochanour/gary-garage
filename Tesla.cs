@@ -15,5 +15,14 @@ namespace Garage
         {
             Console.WriteLine($"The {MainColor} Cessna goes: Silence.");
         }
+        public override void Turn(string direction)
+        {
+            Console.WriteLine($"The Tesla AI senses it is time to move {direction}.");
+        }
+
+        public override void Stop()
+        {
+            Console.WriteLine($"The {MainColor} Tesla stops on a dime... and atop several children.");
+        }
     }
 }
