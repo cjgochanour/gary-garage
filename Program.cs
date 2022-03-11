@@ -7,6 +7,7 @@
             Zero fxs = new Zero();
             Tesla modelS = new Tesla();
             Cessna mx410 = new Cessna();
+            Ram bigTruck = new Ram();
 
             fxs.Drive();
             modelS.Drive();
